@@ -1,0 +1,14 @@
+{
+  "name": "iRanker",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Gets teacher data, performs a calculation, and then displays the TRUE quality of the teacher.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
